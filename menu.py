@@ -1,6 +1,6 @@
 import datetime as dt
 import  mysql.connector as sql
-conn=sql.connect(host='localhost',user='root',passwd='#Sonachandi01',database='bank')
+conn=sql.connect(host='localhost',user='root',passwd='(your root password)',database='bank')
 cur = conn.cursor()
 
       
